@@ -22,7 +22,6 @@ shinyUI(pageWithSidebar(
                 plotOutput('plots'),
                 p(),
                 p(),
-                p('Data Source: 1974 Motor Trend US magazine data extract.'),
-                p()
+                a("Data Source: 1974 Motor Trend US magazine data extract and analysis.",href = "https://github.com/kenricksetiobudi/DataProducts/blob/master/00%20-%20Documentation/")
         )
 ))
